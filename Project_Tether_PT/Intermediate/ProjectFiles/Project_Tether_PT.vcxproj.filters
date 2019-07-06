@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Project_Tether_PT.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{BB3B4D53-08A1-4E1A-830C-D6EA7613917A}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Project_Tether_PT.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\Project_Tether_PTEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{0299F523-48DE-456B-8E06-C2D9E34FFB22}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Project_Tether_PT">
+			<UniqueIdentifier>{4D1DCEDF-E2BA-41CC-8574-76E6EA67A4B8}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Project_Tether_PT\Project_Tether_PT.Build.cs">
+			<Filter>Source\Project_Tether_PT</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Project_Tether_PT\Project_Tether_PT.cpp">
+			<Filter>Source\Project_Tether_PT</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Project_Tether_PT\Project_Tether_PT.h">
+			<Filter>Source\Project_Tether_PT</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Project_Tether_PT\Project_Tether_PTCharacter.cpp">
+			<Filter>Source\Project_Tether_PT</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Project_Tether_PT\Project_Tether_PTCharacter.h">
+			<Filter>Source\Project_Tether_PT</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Project_Tether_PT\Project_Tether_PTGameMode.cpp">
+			<Filter>Source\Project_Tether_PT</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Project_Tether_PT\Project_Tether_PTGameMode.h">
+			<Filter>Source\Project_Tether_PT</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
